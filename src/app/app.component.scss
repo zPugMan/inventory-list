@@ -1,0 +1,18 @@
+.container-fluid {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    margin: 10px 20px 10px 10px;
+}
+
+.header {
+    border-bottom: 1px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+}
+
+.isDone {
+    text-decoration: line-through;
+}
