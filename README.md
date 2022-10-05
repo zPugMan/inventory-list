@@ -1,6 +1,14 @@
 # InventoryList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+This application combines the results from two Square APIs: 
+* CatalogAPI
+* InventoryAPI
+
+The result is a shopping list for purchasing items identified as out-of-stock or low in inventory. When a user is picking items at the supplier, items on the list can be crossed-off as shopped.
+
+![Main Interface](./docs/images/shopping-list.png)
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4. It will eventually deployed as a serverless application hosted in AWS.
 
 ## Development server
 
@@ -24,4 +32,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
